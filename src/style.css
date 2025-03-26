@@ -87,17 +87,17 @@ footer {
   margin-top: 30px;
 }
 
-.generate {
-  animation: blink-animation 1s step(5, start) infinite;
+.generating {
+  animation: blink-animation 1s ease-in-out infinite;
 }
 
 @keyframes blink-animation {
-  to {
-    visibility: hidden;
+  0%,
+  100% {
+    opacity: 1;
   }
-}
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
+  20%,
+  80% {
+    opacity: 0;
   }
 }
