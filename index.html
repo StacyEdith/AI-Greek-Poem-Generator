@@ -9,6 +9,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
     rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>AI Greek Poem Generator</title>
 </head>
@@ -20,15 +21,13 @@
     </header>
 
     <main>
-      <form>
+      <form id="poem-generator-form">
         <input type="text" placeholder="Enter the topic of the Greek poem" autofocus required autocomplete="off"
           class="instructions">
         <input type="submit" class="submit-button">
       </form>
-      <div class="poem">
-        Deep within halls of ancient, and dead Greek gods
-        <br>
-        resides heroes forgotten, waiting their just dues
+      <div class="poem" id="poem">
+
       </div>
     </main>
 
