@@ -4,35 +4,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/style.css">
   <title>AI Greek Poem Generator</title>
 </head>
 
 <body>
-  <header>
-    <h1>AI Greek Poem Generator</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1>AI Greek Poem Generator</h1>
+    </header>
 
-  <main>
-    <form>
-      <input type="text" placeholder="Enter the topic of the Greek poem" autofocus required autocomplete="off">
-      <input type="submit">
-    </form>
-    <div>
-      Deep within halls of ancient, and dead Greek gods
-      <br>
-      resides heroes forgotten, waiting their just dues
-    </div>
-  </main>
+    <main>
+      <form>
+        <input type="text" placeholder="Enter the topic of the Greek poem" autofocus required autocomplete="off"
+          class="instructions">
+        <input type="submit" class="submit-button">
+      </form>
+      <div class="poem">
+        Deep within halls of ancient, and dead Greek gods
+        <br>
+        resides heroes forgotten, waiting their just dues
+      </div>
+    </main>
 
-  <footer>
-    This project was coded by
-    <a href="https://github.com/StacyEdith" target="_blank">Stacy E.Mubayiwa</a>
-    and is
-    <a href="https://github.com/StacyEdith/AI-Greek-Poem-Generator" target="_blank">open-sourced on GitHub</a>
-    and is
-    <a href="https://aipoemgen.netlify.app/" target="_blank">hosted on Netlify</a>
-  </footer>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/StacyEdith" target="_blank">Stacy E.Mubayiwa</a>
+      and is
+      <a href="https://github.com/StacyEdith/AI-Greek-Poem-Generator" target="_blank">open-sourced on GitHub</a>
+      and is
+      <a href="https://aipoemgen.netlify.app/" target="_blank">hosted on Netlify</a>
+    </footer>
+  </div>
+
   <script src="src/script.js"></script>
 </body>
 
