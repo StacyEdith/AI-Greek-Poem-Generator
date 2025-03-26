@@ -13,7 +13,7 @@ function generatePoem(event) {
 
   let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "0d4of6b0264e6b2a0aa2t7471209213f";
-  let prompt = `User instructions: Generate a Greek poem about ${instructionsInput}`;
+  let prompt = `User instructions: Generate a poem about ${instructionsInput}`;
   let context =
     "You are a romatic poem expert and love to write short poems.Your mission is to generate a 4 line poem translated to english in basic HTML . Make sure to follow the user instructions.Do not include the title or the ```html and only show the poem in english language.Sign the poem with 'SheCodes AI' inside <strong> element";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
